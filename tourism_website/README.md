@@ -11,9 +11,9 @@ A five-page responsive website promoting tourism destinations and experiences in
 5. `contact.html` — Accessible contact form with front-end validation/demo confirmation.
 
 ## How to run
-1. Download and extract the ZIP folder.
+1. open folder and select any page to display.
 2. Open `index.html` in a modern browser, or use Visual Studio Code with the Live Server extension.
-3. Internet access is needed for Google Fonts and the remote Unsplash photos. The layout and text remain available without those services.
+3. Internet access is needed for Google Fonts and the photos display. The layout and text remain available without those services.
 
 ## Responsive design
 CSS media queries target desktop/tablet widths at 850px and mobile widths at 560px. The mobile navigation becomes a toggle menu, card grids collapse and the two-column layouts stack vertically.
@@ -30,17 +30,6 @@ CSS media queries target desktop/tablet widths at 850px and mobile widths at 560
 ## Important notes
 - The contact form is a front-end demonstration only; it does not transmit or store messages.
 - Destination information is educational. Visitors should confirm current travel arrangements, conditions and costs with reliable local sources.
-- Remote photos are sourced from Unsplash URLs and require internet access. Replace with properly licensed local images before public launch.
+- to display photos it require internet access. 
 
-## GitHub repository setup
-Create a new GitHub repository named `explore-sierra-leone-tourism`. From this folder run:
 
-```bash
-git init
-git add .
-git commit -m "Build responsive Sierra Leone tourism website"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/explore-sierra-leone-tourism.git
-git push -u origin main
-```
-Replace `YOUR-USERNAME` with your GitHub username. Do not submit a made-up repository URL; create the repository and push the source first.
