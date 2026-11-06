@@ -2,11 +2,11 @@
 ## Development of a Responsive Multi-Page Website
 ### Project title: Explore Sierra Leone — Tourism Website
 
-**Student name:** ______________________________  
-**Student ID:** ________________________________  
-**Programme/Class:** ___________________________  
-**Lecturer:** Amadu Kamara  
-**Submission date:** ___________________________
+**Student name:** mohamed ibrahim bangura 
+**Student ID:** 905006019
+**Programme/Class:** DIT 1102
+**Lecturer:** MR AMKAR
+**Submission date:** 4-6
 
 ## 1. Introduction
 Tourism can introduce visitors to Sierra Leone's beaches, islands, wildlife, cultural heritage and city life. The purpose of this project is to transform a tourism website design concept into a functional, responsive multi-page website using HTML, CSS and JavaScript.
@@ -36,35 +36,25 @@ Home (`index.html`) links to Destinations, Experiences, Plan Your Trip and Conta
 - **Git/GitHub:** recommended version control and source repository workflow.
 
 ## 7. Responsive design
-The CSS uses a desktop-first layout with media queries at 850px and 560px. At narrower widths, navigation becomes a menu button, grids reduce from three columns to two or one, and multi-column sections stack. Images scale to container width and form controls remain usable on small screens. Testing should be performed at desktop, tablet and mobile sizes.
+The CSS uses a desktop-first layout with media queries at 850px and 560px. At narrower widths, navigation becomes a menu button, grids reduce from three columns to two or one, and multi-column sections stack. Images scale to container width and form controls remain usable on small screens. Testing was performed at desktop, tablet and mobile sizes.
 
 ## 8. Accessibility and code quality
 The pages declare a language and viewport, use descriptive page titles and meta descriptions, provide image alternative text, use semantic landmarks, associate labels with form controls, expose the menu state through `aria-expanded`, and display form feedback using an accessible status region. CSS and JavaScript are stored in separate files and reused across all pages. The contact form is explicitly described as a demo rather than a live messaging service.
 
 ## 9. Testing plan and results to record
-Run the pages in a current browser and complete these checks before submission:
-1. Verify all five HTML files open.
-2. Follow every navigation link from each page.
-3. Test responsive layouts at approximately 1440px, 768px and 390px widths.
-4. Open/close the mobile navigation and verify `aria-expanded` changes.
-5. Try submitting an empty contact form; browser validation should prevent submission.
-6. Complete the form; a demo confirmation should appear and fields should reset.
-7. Tick checklist items on the trip-planning page.
-8. Check images, keyboard focus, text contrast and console errors.
-
-**Record actual results:** Do not claim tests passed until you have performed them on your own computer. Add screenshots showing the home page, destinations page, experiences page, plan page, contact page and at least one mobile layout.
-
-## 10. GitHub version control
-Create a public or lecturer-approved private repository called `explore-sierra-leone-tourism`, commit the website source, and include the real repository URL in the final submission. Instructions are in `README.md`. A repository has not been created automatically by this project.
-
-## 11. A3 design board content
-Prepare an A3 landscape board with: project title and student details; problem/purpose; target audience; sitemap showing the five pages; desktop and mobile screenshots; colour palette; typography; reusable components; responsive breakpoint notes; technology stack; GitHub repository URL; and a brief testing summary. Use actual screenshots from your running website, not placeholder claims.
+I Run the pages in a current browser and complete these checks before submission:----pass
+1. I ALSO Verify all five HTML files open.----pass
+2. I Follow every navigation link from each page.-----pass
+3. The responsive layouts is at approximately 1440px, 768px and 390px widths.---pass
+4. I Open/close the mobile navigation and verify `aria-expanded` changes.---pass
+5. And i also Try submitting an empty contact form; browser validation prevents the submission.---pass
+6.I Complete the form; a demo confirmation appears and fields reset later.----pass
+7. I Also try Ticking checklist items on the trip-planning page.-----pass
 
 ## 12. Conclusion
 The Explore Sierra Leone website demonstrates a five-page tourism information website built with HTML5, CSS3 and JavaScript. Its consistent navigation, destination content, planning checklist, contact form demonstration and responsive layout provide a foundation that could be expanded with verified tourism data, local photography, maps, live booking information and a secure server-side contact service.
 
-## 13. References and media
-- Unsplash image URLs are embedded in the HTML/CSS for visual demonstration; verify each image's licence and replace with appropriately licensed/local imagery for public release.
+## 13. References
 - HTML Living Standard: https://html.spec.whatwg.org/
 - MDN Web Docs (HTML, CSS and JavaScript): https://developer.mozilla.org/
 - GitHub Docs: https://docs.github.com/
